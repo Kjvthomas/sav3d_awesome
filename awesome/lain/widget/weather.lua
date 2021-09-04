@@ -24,10 +24,10 @@ local function factory(args)
     args                        = args or {}
 
     local weather               = { widget = args.widget or wibox.widget.textbox() }
-    local APPID                 = args.APPID or "74ca44597e7741a1eef59f4fb808fa6a" -- mandatory
+    local APPID                 = args.APPID or "SET-YOUR-API-HERE" -- mandatory
     local timeout               = args.timeout or 60 * 15 -- 15 min
-    local current_call          = args.current_call  or "curl -s 'https://api.openweathermap.org/data/2.5/weather?id=5313457&units=imperial&lang=%s&APPID=74ca44597e7741a1eef59f4fb808fa6a'"
-    local forecast_call         = args.forecast_call or "curl -s 'https://api.openweathermap.org/data/2.5/forecast?id=5313457&units=imperial&lang=%s&APPID=74ca44597e7741a1eef59f4fb808fa6a'"
+    local current_call          = args.current_call  or "curl -s 'https://api.openweathermap.org/data/2.5/weather?id=5313457&units=imperial&lang=%s&APPID=SET-YOUR-API-HERE'"
+    local forecast_call         = args.forecast_call or "curl -s 'https://api.openweathermap.org/data/2.5/forecast?id=5313457&units=imperial&lang=%s&APPID=SET-YOUR-API-HERE'"
     local city_id               = args.city_id or "5313457" -- placeholder
     local units                 = args.units or "imperial"
     local lang                  = args.lang or "en"
