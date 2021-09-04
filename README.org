@@ -51,4 +51,5 @@ My custom keybindings you'll find in this config.
 
 * Things you MUST DO
 - Set your API key for the weather widget, in awesome/lain/widgets/weather.lua
+Look for SET-YOUR-API-HERE
 - Change the Workspace Icons to Whatever you like.
