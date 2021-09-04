@@ -48,3 +48,7 @@ My custom keybindings you'll find in this config.
 | MODKEY + d                  | dmenu.                                                                   |
 | MODKEY + u                  | ulauncher                                                                |
 | MODKEY + o                  | libreoffice                                                              |
+
+* Things you MUST DO
+- Set your API key for the weather widget, in awesome/lain/widgets/weather.lua
+- Change the Workspace Icons to Whatever you like.
