@@ -1,0 +1,50 @@
+#+TITLE: Awesome Config
+#+PROPERTY: header-args :tangle Awesome
+
+* About This Config
+#+CAPTION: Awesome Scrot
+#+ATTR_HTML: :alt Qtile Scrot :title Qtile Scrot :align left
+[[https://i.redd.it/t0q7dmznrtk71.png]]
+
+* Variables I set
+Makes awesome work. Set your own or use mine! -- is = to # in lua
+
+#+BEGIN_SRC lua
+-- personal variables
+--change these variables if you want
+local browser1          = "librewolf"
+local browser2          = "brave"
+--local browser3          = "chromium -no-default-browser-check"
+local editor            = os.getenv("EDITOR") or "nano"
+local editorgui         = "atom"
+local filemanager       = "pcmanfm"
+--local mailclient        = "evolution"
+local mediaplayer       = "vlc"
+local terminal          = "kitty"
+--local virtualmachine    = "virtualbox"
+#+END_SRC
+
+* Keybindings
+My custom keybindings you'll find in this config.
+
+| A FEW IMPORTANT KEYBINDINGS | ASSOCIATED ACTION                                                        |
+|-----------------------------+--------------------------------------------------------------------------|
+| MODKEY + RETURN             | opens killy terminal                                                     |
+| MODKEY + SHIFT + RETURN     | opens pcmanfm                                                            |
+| MODKEY + TAB                | rotates through the available layouts                                    |
+| MODKEY + q                  | closes window with focus                                                 |
+| MODKEY + SHIFT + r          | restarts qtile                                                           |
+| MODKEY + 1-9                | switch focus to workspace (1-9)                                          |
+| MODKEY + SHIFT + 1-9        | send focused window to workspace (1-9)                                   |
+| MODKEY + h                  | bpytop                                                                   |
+| MODKEY + r                  | reloads dwall                                                            |
+| MODKEY + g                  | opens gimp.                                                              |
+| MODKEY + i                  | opens inkscape.                                                          |
+| MODKEY + c                  | opens galculator                                                         |
+| MODKEY + n                  | opens my appimage nextcloud                                              |
+| MODKEY + x                  | arcolinux-logout.                                                        |
+| MODKEY + e                  | opens atom                                                               |
+| MODKEY + w                  | librewolf                                                                |
+| MODKEY + d                  | dmenu.                                                                   |
+| MODKEY + u                  | ulauncher                                                                |
+| MODKEY + o                  | libreoffice                                                              |
